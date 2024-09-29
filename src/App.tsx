@@ -1,3 +1,4 @@
+import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
 
   return (
     <div>
+      <Alert>
+        <h1>Hello World</h1>
+      </Alert>
       <ListGroup
         items={items}
         heading="Cities"
